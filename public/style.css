@@ -95,32 +95,34 @@ html::before {
         linear-gradient(var(--c5) 60%, var(--c3) 60%, var(--c2) 150%);
 }
 
-p {
+h1 {
     color: #ffffff;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 25px;
-    background-color: #ff6ac1;
-    border: 5px solid #ff6ac1;
-}
-
-h1{
-    color: rgb(0, 0, 0);
     margin: 1px;
     font-size: 50px;
     border-radius: 15px;
-    background-color: #ffffff;
-    border: 4px solid #ffffff;
+    background-color: #0000009d;
+    padding: 10px;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 60px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Verdana", sans-serif;
+    background-color: #0000007a;
+    border-radius: 15px;
+    padding: 10px;
+    /*-webkit-text-stroke: 0.5px #00f; 
+    text-stroke: 0.5px #00f;*/
 }
 
 p2 {
-    color: #ffffff; /* Rosa neon para maior destaque */
-    font-size: medium; /* Ajustado para um tamanho um pouco maior */
-    font-weight: 700; /* Equivalente a 'bold' */
+    color: #ffffff;
     text-align: center;
-    border-radius: 25px;
-    background-color: #ff6ac1;
-    border: 5px solid #ff6ac1;
+    background-color: #0000009d;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .main {
